@@ -33,35 +33,41 @@ header{position:absolute;width:100%;z-index:20;color:#fff;border-bottom:1px soli
 .story-line{display:grid;grid-template-columns:repeat(3,1fr);margin-top:40px}.moment{padding:30px;border-top:1px solid var(--line);border-right:1px solid var(--line)}.moment b{font-family:var(--serif);font-size:1.5rem;font-weight:500}.moment p{font-size:.76rem;color:var(--muted)}.audience-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.audience{padding:34px;background:var(--cream);min-height:210px}.audience h3{font-family:var(--serif);font-size:1.45rem;font-weight:500}.audience p{font-size:.76rem;color:var(--muted)}
 .location{background:var(--sand)}.map-card{min-height:460px;position:relative;overflow:hidden}.map-card iframe{display:block;width:100%;height:100%;border:0;min-height:460px}.contact a{display:block;padding:17px 0;border-bottom:1px solid #c8b89f;font-weight:700}
 .reviews{display:grid;grid-template-columns:.5fr 1.5fr;gap:70px;align-items:center}.quote{font-family:var(--serif);font-size:10rem;line-height:.5;color:var(--sand)}.review-copy{border-left:4px solid var(--wine);padding:25px 35px;background:#faf8f4}.review-copy p{color:var(--muted)}
-.booking{background:var(--cream)}.booking-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:80px;align-items:center}
+.booking{background:var(--cream)}
 .final{padding:120px 0;background:linear-gradient(90deg,#3a2121ed,#3a21218f),url('https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=1800&q=85') center/cover;color:#fff;text-align:center}.final .wrap{display:flex;flex-direction:column;align-items:center}.final .eyebrow{color:#e4c78d}.final .title{max-width:850px}.final p{color:#eadfda;max-width:650px}.final .actions{justify-content:center}.tiny{font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;margin-top:28px!important}
 footer{background:#2f1d1e;color:#fff;padding:65px 0 25px}.foot{display:grid;grid-template-columns:2fr repeat(3,1fr);gap:45px}.foot h4{font-size:.67rem;letter-spacing:.14em;text-transform:uppercase;color:#bdaaa2}.foot a{display:block;font-size:.73rem;color:#d8cbc6;margin:8px 0}.copyright{border-top:1px solid #ffffff1c;margin-top:45px;padding-top:20px;font-size:.64rem;color:#9f8f89}.mobile-cta{display:none}
 .reveal{opacity:0;transform:translateY(28px);transition:opacity .9s cubic-bezier(.16,.8,.3,1),transform .9s cubic-bezier(.16,.8,.3,1)}.reveal.visible{opacity:1;transform:none}.reveal-item{opacity:0;transform:translateY(28px);transition:opacity .8s cubic-bezier(.16,.8,.3,1),transform .8s cubic-bezier(.16,.8,.3,1)}.reveal-group.visible .reveal-item{opacity:1;transform:none}.reveal-group.visible .reveal-item:nth-child(1){transition-delay:0s}.reveal-group.visible .reveal-item:nth-child(2){transition-delay:.09s}.reveal-group.visible .reveal-item:nth-child(3){transition-delay:.18s}.reveal-group.visible .reveal-item:nth-child(4){transition-delay:.27s}.reveal-group.visible .reveal-item:nth-child(5){transition-delay:.36s}.reveal-group.visible .reveal-item:nth-child(6){transition-delay:.45s}.reveal-group.visible .reveal-item:nth-child(7){transition-delay:.54s}.reveal-group.visible .reveal-item:nth-child(8){transition-delay:.63s}
 @supports(background-attachment:fixed){@media(min-width:1001px) and (prefers-reduced-motion:no-preference){.final{background-attachment:fixed}}}
-@media(max-width:900px){.links{display:none}.header-actions{display:none}.hero-grid,.about-grid,.story-grid,.location-grid,.comfort-grid,.booking-grid{grid-template-columns:1fr}.hero-grid{gap:45px}.hero h1{font-size:7rem}.hero-side{border-left:0;padding-left:0}.room-grid{grid-template-columns:1fr}.room{min-height:0}.room-img{height:400px}.gallery{grid-template-columns:1fr 1fr}.gallery figure:first-child{grid-row:auto}.todo-grid{grid-template-columns:1fr 1fr}.audience-grid{grid-template-columns:1fr 1fr}.foot{grid-template-columns:1fr 1fr}.mobile-cta{display:grid;grid-template-columns:1fr 1fr;position:fixed;bottom:0;left:0;right:0;z-index:30}.mobile-cta .btn{padding:0 10px}body{padding-bottom:52px}.section{padding:78px 0}}
+@media(max-width:900px){.links{display:none}.header-actions{display:none}.hero-grid,.about-grid,.story-grid,.location-grid,.comfort-grid{grid-template-columns:1fr}.hero-grid{gap:45px}.hero h1{font-size:7rem}.hero-side{border-left:0;padding-left:0}.room-grid{grid-template-columns:1fr}.room{min-height:0}.room-img{height:400px}.gallery{grid-template-columns:1fr 1fr}.gallery figure:first-child{grid-row:auto}.todo-grid{grid-template-columns:1fr 1fr}.audience-grid{grid-template-columns:1fr 1fr}.foot{grid-template-columns:1fr 1fr}.mobile-cta{display:grid;grid-template-columns:1fr 1fr;position:fixed;bottom:0;left:0;right:0;z-index:30}.mobile-cta .btn{padding:0 10px}body{padding-bottom:52px}.section{padding:78px 0}}
 @media(max-width:560px){.wrap{width:min(100% - 28px,1180px)}.nav{height:76px}.hero{min-height:750px}.hero-grid{padding:145px 0 60px}.hero h1{font-size:5.3rem;margin-bottom:40px}.facts .wrap{width:100%}.fact-grid{grid-template-columns:1fr 1fr}.fact{padding:25px 18px}.rooms-head{display:block}.row{grid-template-columns:1fr repeat(3,.85fr)}.row>*{padding:11px 7px;font-size:.62rem}.gallery{display:grid;grid-template-columns:1fr;grid-template-rows:auto}.gallery figure{height:280px}.todo-grid,.audience-grid,.story-line{grid-template-columns:1fr}.foot{grid-template-columns:1fr}.title{font-size:2.8rem}.about-media{height:370px}.map-card{padding:35px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal,.reveal-item{opacity:1;transform:none;transition:none}.btn{transition:none}.hero-media{transform:none!important}.room-img,.gallery img{transition:none}}
+.request-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:80px;align-items:start}.request-phone{display:inline-block;margin-top:10px;font-family:var(--serif);font-size:clamp(1.6rem,3vw,2.2rem);color:var(--wine)}.request-address{font-size:.8rem;color:var(--muted);margin:14px 0 0}.request-address a{color:var(--wine);font-weight:700}
+.request-form{display:grid;grid-template-columns:1fr 1fr;gap:18px 16px;padding:40px;background:#fff;border:1px solid var(--line)}.field{display:grid;gap:7px;align-content:start;min-width:0;font-size:.64rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--wine2)}.field.full{grid-column:1/-1}.field small{font-size:.74rem;font-weight:500;letter-spacing:0;text-transform:none;color:var(--muted)}
+.field input,.field select,.field textarea{width:100%;min-height:52px;padding:12px 16px;border:1px solid var(--line);border-radius:0;background:#faf8f4;color:var(--ink);font:500 1rem var(--sans);letter-spacing:0;text-transform:none}.field textarea{min-height:110px;resize:vertical}.field input:focus-visible,.field select:focus-visible,.field textarea:focus-visible{outline:2px solid var(--gold);outline-offset:1px}.field [aria-invalid=true]{border-color:var(--wine);background:#fbf1f1}
+[data-error-for]{font-size:.78rem;font-weight:600;letter-spacing:0;text-transform:none;color:var(--wine)}[data-error-for]:empty{display:none}.trap{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}.request-foot{grid-column:1/-1;display:flex;flex-wrap:wrap;align-items:center;gap:18px}.request-foot .btn{cursor:pointer;font-family:var(--sans)}.request-foot .btn[disabled]{opacity:.6;cursor:wait;transform:none}.request-note{flex:1;min-width:200px;margin:0;color:var(--muted);font-size:.74rem}
+[data-status]{grid-column:1/-1;margin:0;padding:16px 18px;border-left:3px solid var(--gold);background:var(--cream);font-size:.9rem}[data-status]:empty{display:none}[data-status][data-state=error]{border-color:var(--wine);background:#fbf1f1}[data-status] a{font-weight:700;text-decoration:underline}
+@media(max-width:900px){.request-grid{grid-template-columns:1fr;gap:40px}}@media(max-width:560px){.request-form{grid-template-columns:1fr;padding:24px 18px}}
 </style>
 </head>
 <body>
 <a class="skip" href="#main">До основного змісту</a>
-<header id="top"><div class="wrap nav"><nav class="links" id="links" aria-label="Головна навігація"><span class="links-left"><a href="#about">Про готель</a><a href="#rooms">Номери</a></span><span class="links-right"><a href="#gallery">Галерея</a><a href="#contacts">Контакти</a></span></nav><a class="logo" href="#top"><strong>МАРІЯ</strong><small>Готель · Кам’янець-Подільський</small></a><div class="header-actions"><a class="phone" href="tel:+380977115522">+38 097 711 55 22</a><a class="btn" href="#booking">Забронювати</a></div></div></header>
+<header id="top"><div class="wrap nav"><nav class="links" id="links" aria-label="Головна навігація"><span class="links-left"><a href="#about">Про готель</a><a href="#rooms">Номери</a></span><span class="links-right"><a href="#gallery">Галерея</a><a href="#contacts">Контакти</a></span></nav><a class="logo" href="#top"><strong>МАРІЯ</strong><small>Готель · Кам’янець-Подільський</small></a><div class="header-actions"><a class="phone" href="tel:+380977115522">+38 097 711 55 22</a><a class="btn" href="#stay-request">Забронювати</a></div></div></header>
 <main id="main">
 <section class="hero"><div class="hero-media"><video id="heroVideo" autoplay muted loop playsinline preload="auto" poster="https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1800&q=85"><source src="hero-bg.mp4" type="video/mp4"></video></div><div class="wrap hero-grid"><div><p class="eyebrow">Готель · Кам’янець-Подільський</p><h1>Марія</h1><h2>Затишне місце для кількох днів у Кам’янці</h2><p>Номери категорій «Стандарт», «Напівлюкс» та «Люкс» для комфортного проживання.</p><div class="actions"><a class="btn" href="#rooms">Обрати номер</a><a class="btn light" href="tel:+380977115522">Зателефонувати</a></div></div><aside class="hero-side"><address>вул. Данила Галицького, 16А<br>Кам’янець-Подільський</address><a href="https://www.google.com/maps/search/?api=1&query=%D0%93%D0%BE%D1%82%D0%B5%D0%BB%D1%8C+%22%D0%9C%D0%B0%D1%80%D1%96%D1%8F%22%2C+%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F+%D0%94%D0%B0%D0%BD%D0%B8%D0%BB%D0%B0+%D0%93%D0%B0%D0%BB%D0%B8%D1%86%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE%2C+16%D0%B0%2C+%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B0" target="_blank" rel="noopener">Показати на карті →</a></aside></div></section>
 <section class="facts"><div class="wrap fact-grid"><div class="fact"><b>Стандарт</b><span>базовий комфорт</span></div><div class="fact"><b>Напівлюкс</b><span>більше простору</span></div><div class="fact"><b>Люкс</b><span>підвищений комфорт</span></div><div class="fact"><b>Кам’янець</b><span>міський готель</span></div></div></section>
 <section class="section" id="about"><div class="wrap about-grid"><div class="about-media reveal"><img src="https://images.unsplash.com/photo-1760573776062-7d2a7baeb49d?auto=format&fit=crop&w=1100&q=85" alt="Ілюстративний затишний номер готелю" loading="lazy"></div><div class="reveal"><p class="eyebrow">Про готель</p><h2 class="title">Просто затишно</h2><p class="lead">Готель «Марія» пропонує проживання у трьох підтверджених категоріях номерів. Оберіть формат відповідно до бюджету та бажаного рівня комфорту.</p><a class="btn dark" href="#rooms">Переглянути номери</a></div></div></section>
-<section class="section rooms" id="rooms"><div class="wrap"><div class="rooms-head reveal"><div><p class="eyebrow">Ваш номер</p><h2 class="title">Оберіть свій формат проживання</h2></div><p class="lead">Три категорії, від практичного варіанта до найвищого підтвердженого рівня комфорту.</p></div><div class="room-grid reveal-group"><article class="room reveal-item"><div class="room-img" role="img" aria-label="Ілюстративне фото номера категорії Стандарт"></div><div class="room-copy"><span class="room-num">01 · БАЗОВИЙ</span><h3>Стандарт</h3><p>Практичний варіант для короткої подорожі та відпочинку після дня у місті.</p><a href="#booking">Запитати про Стандарт →</a></div></article><article class="room reveal-item"><div class="room-img" role="img" aria-label="Ілюстративне фото номера категорії Напівлюкс"></div><div class="room-copy"><span class="room-num">02 · БІЛЬШЕ ПРОСТОРУ</span><h3>Напівлюкс</h3><p>Варіант для гостей, яким хочеться більше простору та комфорту.</p><a href="#booking">Запитати про Напівлюкс →</a></div></article><article class="room reveal-item"><div class="room-img" role="img" aria-label="Ілюстративне фото номера категорії Люкс"></div><div class="room-copy"><span class="room-num">03 · ВИЩА КАТЕГОРІЯ</span><h3>Люкс</h3><p>Найвища серед підтверджених категорій, для комфортнішого формату проживання.</p><a href="#booking">Запитати про Люкс →</a></div></article></div></div></section>
-<section class="section compare"><div class="wrap reveal"><p class="eyebrow">Порівняння</p><h2 class="title">Три рівні комфорту</h2><p class="lead">Місткість, площу, конфігурацію ліжок, оснащення та актуальну ціну підтвердить адміністратор.</p><div class="table" role="table" aria-label="Порівняння категорій номерів"><div class="row" role="row"><strong>Параметр</strong><span>Стандарт</span><span>Напівлюкс</span><span>Люкс</span></div><div class="row" role="row"><strong>Категорія</strong><span>Базова</span><span>Більше простору</span><span>Найвища</span></div><div class="row" role="row"><strong>Гості</strong><span>Уточнити</span><span>Уточнити</span><span>Уточнити</span></div><div class="row" role="row"><strong>Ліжко</strong><span>Уточнити</span><span>Уточнити</span><span>Уточнити</span></div><div class="row" role="row"><strong>Ціна</strong><span>За запитом</span><span>За запитом</span><span>За запитом</span></div></div><p class="compare-note">Ми не публікуємо непідтверджені характеристики.</p><a class="btn" href="#booking">Підібрати номер</a></div></section>
+<section class="section rooms" id="rooms"><div class="wrap"><div class="rooms-head reveal"><div><p class="eyebrow">Ваш номер</p><h2 class="title">Оберіть свій формат проживання</h2></div><p class="lead">Три категорії, від практичного варіанта до найвищого підтвердженого рівня комфорту.</p></div><div class="room-grid reveal-group"><article class="room reveal-item"><div class="room-img" role="img" aria-label="Ілюстративне фото номера категорії Стандарт"></div><div class="room-copy"><span class="room-num">01 · БАЗОВИЙ</span><h3>Стандарт</h3><p>Практичний варіант для короткої подорожі та відпочинку після дня у місті.</p><a href="#stay-request">Запитати про Стандарт →</a></div></article><article class="room reveal-item"><div class="room-img" role="img" aria-label="Ілюстративне фото номера категорії Напівлюкс"></div><div class="room-copy"><span class="room-num">02 · БІЛЬШЕ ПРОСТОРУ</span><h3>Напівлюкс</h3><p>Варіант для гостей, яким хочеться більше простору та комфорту.</p><a href="#stay-request">Запитати про Напівлюкс →</a></div></article><article class="room reveal-item"><div class="room-img" role="img" aria-label="Ілюстративне фото номера категорії Люкс"></div><div class="room-copy"><span class="room-num">03 · ВИЩА КАТЕГОРІЯ</span><h3>Люкс</h3><p>Найвища серед підтверджених категорій, для комфортнішого формату проживання.</p><a href="#stay-request">Запитати про Люкс →</a></div></article></div></div></section>
+<section class="section compare"><div class="wrap reveal"><p class="eyebrow">Порівняння</p><h2 class="title">Три рівні комфорту</h2><p class="lead">Місткість, площу, конфігурацію ліжок, оснащення та актуальну ціну підтвердить адміністратор.</p><div class="table" role="table" aria-label="Порівняння категорій номерів"><div class="row" role="row"><strong>Параметр</strong><span>Стандарт</span><span>Напівлюкс</span><span>Люкс</span></div><div class="row" role="row"><strong>Категорія</strong><span>Базова</span><span>Більше простору</span><span>Найвища</span></div><div class="row" role="row"><strong>Гості</strong><span>Уточнити</span><span>Уточнити</span><span>Уточнити</span></div><div class="row" role="row"><strong>Ліжко</strong><span>Уточнити</span><span>Уточнити</span><span>Уточнити</span></div><div class="row" role="row"><strong>Ціна</strong><span>За запитом</span><span>За запитом</span><span>За запитом</span></div></div><p class="compare-note">Ми не публікуємо непідтверджені характеристики.</p><a class="btn" href="#stay-request">Підібрати номер</a></div></section>
 <section class="section" id="gallery"><div class="wrap"><p class="eyebrow">Подивіться ближче</p><h2 class="title">Тепло. Чисто. Спокійно.</h2><p class="lead">Зображення передають бажаний характер проживання; актуальні фото конкретної категорії попросіть під час бронювання.</p><div class="gallery reveal-group"><figure class="reveal-item"><img src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1000&q=85" alt="Ілюстративний інтер’єр теплого готельного номера" loading="lazy"></figure><figure class="reveal-item"><img src="https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=800&q=85" alt="Ілюстративна деталь готельного номера" loading="lazy"></figure><div class="gallery-label reveal-item">Стандарт<br>→ Люкс</div><div class="gallery-label dark reveal-item">Ваш номер.<br>Ваш Кам’янець.</div><figure class="reveal-item"><img src="https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=800&q=85" alt="Ілюстративна зона відпочинку в готелі" loading="lazy"></figure></div></div></section>
 <section class="section comfort"><div class="wrap comfort-grid"><div class="reveal"><p class="eyebrow">Комфорт у деталях</p><h2 class="title">Уточніть важливе до приїзду</h2><p class="lead">Оснащення номерів і додаткові послуги уточнюйте одним дзвінком. Це допоможе спланувати проживання без припущень.</p><a class="btn dark" href="tel:+380977115522">Зателефонувати</a></div><div class="comfort-media reveal"><img src="https://images.unsplash.com/photo-1610392734074-02f696fd30a8?auto=format&fit=crop&w=1100&q=85" alt="Ілюстративна деталь затишного номера" loading="lazy"></div></div></section>
 <section class="section"><div class="wrap"><p class="eyebrow">Проста подорож</p><h2 class="title">Ваші кілька днів у Кам’янці</h2><div class="story-line reveal-group"><article class="moment reveal-item"><b>День 1</b><p>Приїхати, заселитися, залишити речі та вийти гуляти містом.</p></article><article class="moment reveal-item"><b>Вечір</b><p>Повернутися до номера та відпочити.</p></article><article class="moment reveal-item"><b>Новий ранок</b><p>Ще один день для Кам’янця.</p></article></div></div></section>
 <section class="section"><div class="wrap"><p class="eyebrow">Для різних подорожей</p><h2 class="title">Оберіть свій сценарій</h2><div class="audience-grid reveal-group"><article class="audience reveal-item"><h3>Пара</h3><p>Стандарт або Напівлюкс для короткої подорожі удвох.</p></article><article class="audience reveal-item"><h3>Соло-мандрівник</h3><p>Практичне проживання під час знайомства з містом.</p></article><article class="audience reveal-item"><h3>Довше проживання</h3><p>Більш просторий формат для кількох днів.</p></article><article class="audience reveal-item"><h3>Більше комфорту</h3><p>Люкс як найвища з підтверджених категорій.</p></article></div></div></section>
-<section class="section location" id="contacts"><div class="wrap location-grid"><div class="map-card reveal"><iframe src="https://www.google.com/maps?q=%D0%93%D0%BE%D1%82%D0%B5%D0%BB%D1%8C%20%C2%AB%D0%9C%D0%B0%D1%80%D1%96%D1%8F%C2%BB%2C%20%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F%20%D0%94%D0%B0%D0%BD%D0%B8%D0%BB%D0%B0%20%D0%93%D0%B0%D0%BB%D0%B8%D1%86%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE%2C%2016%D0%90%2C%20%D0%9A%D0%B0%D0%BC%E2%80%99%D1%8F%D0%BD%D0%B5%D1%86%D1%8C-%D0%9F%D0%BE%D0%B4%D1%96%D0%BB%D1%8C%D1%81%D1%8C%D0%BA%D0%B8%D0%B9&output=embed" title="Готель «Марія» на карті" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div><div class="reveal"><p class="eyebrow">Контакти</p><h2 class="title">Готель «Марія»</h2><p class="lead">Для бронювання та уточнення деталей проживання зв’яжіться з адміністратором.</p><div class="contact"><a href="tel:+380977115522">+38 097 711 55 22</a><a href="#booking">Залишити запит</a></div></div></div></section>
-<section class="section booking" id="booking"><div class="wrap booking-grid"><div class="reveal"><p class="eyebrow">Прямий запит</p><h2 class="title">Зв'яжіться з нами</h2><p class="lead">Зателефонуйте адміністратору, щоб забронювати номер і уточнити доступність категорій «Стандарт», «Напівлюкс» та «Люкс».</p></div><div class="reveal" style="text-align:center;padding:40px;background:#fff;border:1px solid var(--line)"><a href="tel:+380977115522" class="btn dark" style="font-size:1.3rem;padding:0 32px;min-height:64px"><strong>+38 097 711 55 22</strong></a><p class="lead" style="margin-top:20px">вул. Данила Галицького, 16А, Кам’янець-Подільський</p><a class="btn" href="https://www.google.com/maps/search/?api=1&query=%D0%93%D0%BE%D1%82%D0%B5%D0%BB%D1%8C+%22%D0%9C%D0%B0%D1%80%D1%96%D1%8F%22%2C+%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F+%D0%94%D0%B0%D0%BD%D0%B8%D0%BB%D0%B0+%D0%93%D0%B0%D0%BB%D0%B8%D1%86%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE%2C+16%D0%B0%2C+%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B0" target="_blank" rel="noopener">Відкрити в Google Maps</a></div></div></section>
-<section class="final"><div class="wrap reveal"><p class="eyebrow">Ваш номер. Ваш Кам’янець.</p><h2 class="title">Оберіть свій номер у Кам’янці</h2><p>Стандарт, Напівлюкс або Люкс, залежно від того, яким має бути ваш відпочинок.</p><div class="actions"><a class="btn" href="#booking">Забронювати номер</a><a class="btn light" href="tel:+380977115522">+38 097 711 55 22</a></div><p class="tiny">Стандарт · Напівлюкс · Люкс</p></div></section>
+<section class="section location" id="contacts"><div class="wrap location-grid"><div class="map-card reveal"><iframe src="https://www.google.com/maps?q=%D0%93%D0%BE%D1%82%D0%B5%D0%BB%D1%8C%20%C2%AB%D0%9C%D0%B0%D1%80%D1%96%D1%8F%C2%BB%2C%20%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F%20%D0%94%D0%B0%D0%BD%D0%B8%D0%BB%D0%B0%20%D0%93%D0%B0%D0%BB%D0%B8%D1%86%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE%2C%2016%D0%90%2C%20%D0%9A%D0%B0%D0%BC%E2%80%99%D1%8F%D0%BD%D0%B5%D1%86%D1%8C-%D0%9F%D0%BE%D0%B4%D1%96%D0%BB%D1%8C%D1%81%D1%8C%D0%BA%D0%B8%D0%B9&output=embed" title="Готель «Марія» на карті" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div><div class="reveal"><p class="eyebrow">Контакти</p><h2 class="title">Готель «Марія»</h2><p class="lead">Для бронювання та уточнення деталей проживання зв’яжіться з адміністратором.</p><div class="contact"><a href="tel:+380977115522">+38 097 711 55 22</a><a href="#stay-request">Залишити запит</a></div></div></div></section>
+<section class="section booking" id="stay-request"><div class="wrap request-grid"><div class="reveal"><p class="eyebrow">Прямий запит</p><h2 class="title">Залиште номер, ми передзвонимо</h2><p class="lead">Вкажіть телефон і, за бажанням, дати поїздки та категорію. Адміністратор зателефонує, щоб підтвердити доступність і вартість номера.</p><a class="request-phone" href="tel:+380977115522">+38 097 711 55 22</a><p class="request-address">вул. Данила Галицького, 16А, Кам’янець-Подільський · <a href="https://www.google.com/maps/search/?api=1&query=%D0%93%D0%BE%D1%82%D0%B5%D0%BB%D1%8C+%22%D0%9C%D0%B0%D1%80%D1%96%D1%8F%22%2C+%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F+%D0%94%D0%B0%D0%BD%D0%B8%D0%BB%D0%B0+%D0%93%D0%B0%D0%BB%D0%B8%D1%86%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE%2C+16%D0%B0%2C+%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B0" target="_blank" rel="noopener">Google Maps →</a></p></div><form class="request-form reveal" data-hotelos data-form-name="Запит на проживання" novalidate><label class="field full">Телефон<small>Обов’язково, щоб ми могли передзвонити</small><input name="phone" type="tel" autocomplete="tel" inputmode="tel" required aria-describedby="stay-phone-error"><span id="stay-phone-error" data-error-for="phone"></span></label><label class="field">Ім’я<input name="name" type="text" autocomplete="name" maxlength="200"></label><label class="field">Гостей<input name="guests" type="number" min="1" max="50" inputmode="numeric"></label><label class="field">Дата заїзду<input name="checkIn" type="date"></label><label class="field">Дата виїзду<input name="checkOut" type="date" aria-describedby="stay-checkout-error"><span id="stay-checkout-error" data-error-for="checkOut"></span></label><label class="field full">Категорія номера<select name="roomType"><option value="">Ще не вирішили</option><option>Стандарт</option><option>Напівлюкс</option><option>Люкс</option></select></label><label class="field full">Побажання<textarea name="message" maxlength="5000"></textarea></label><label class="trap" aria-hidden="true">Не заповнюйте<input name="website" type="text" tabindex="-1" autocomplete="off"></label><div class="request-foot"><button class="btn dark" type="submit">Надіслати запит</button><p class="request-note">Номер використаємо лише для відповіді на цей запит.</p></div><p data-status role="status" aria-live="polite"></p></form></div></section>
+<section class="final"><div class="wrap reveal"><p class="eyebrow">Ваш номер. Ваш Кам’янець.</p><h2 class="title">Оберіть свій номер у Кам’янці</h2><p>Стандарт, Напівлюкс або Люкс, залежно від того, яким має бути ваш відпочинок.</p><div class="actions"><a class="btn" href="#stay-request">Забронювати номер</a><a class="btn light" href="tel:+380977115522">+38 097 711 55 22</a></div><p class="tiny">Стандарт · Напівлюкс · Люкс</p></div></section>
 </main>
-<footer><div class="wrap"><div class="foot"><div><a class="logo" href="#top"><strong>МАРІЯ</strong><small>Готель · Кам’янець-Подільський</small></a></div><div><h4>Готель</h4><a href="#about">Про нас</a><a href="#rooms">Номери</a><a href="#gallery">Галерея</a></div><div><h4>Номери</h4><a href="#rooms">Стандарт</a><a href="#rooms">Напівлюкс</a><a href="#rooms">Люкс</a></div><div><h4>Інформація</h4><a href="#contacts">Контакти</a><a href="#contacts">Карта</a><a href="#booking">Бронювання</a></div></div><div class="copyright">© Готель «Марія» · вул. Данила Галицького, 16А · Наявність, ціни та характеристики уточнюйте перед бронюванням.</div></div></footer>
-<div class="mobile-cta"><a class="btn dark" href="tel:+380977115522">Зателефонувати</a><a class="btn" href="#booking">Забронювати</a></div>
+<footer><div class="wrap"><div class="foot"><div><a class="logo" href="#top"><strong>МАРІЯ</strong><small>Готель · Кам’янець-Подільський</small></a></div><div><h4>Готель</h4><a href="#about">Про нас</a><a href="#rooms">Номери</a><a href="#gallery">Галерея</a></div><div><h4>Номери</h4><a href="#rooms">Стандарт</a><a href="#rooms">Напівлюкс</a><a href="#rooms">Люкс</a></div><div><h4>Інформація</h4><a href="#contacts">Контакти</a><a href="#contacts">Карта</a><a href="#stay-request">Бронювання</a></div></div><div class="copyright">© Готель «Марія» · вул. Данила Галицького, 16А · Наявність, ціни та характеристики уточнюйте перед бронюванням.</div></div></footer>
+<div class="mobile-cta"><a class="btn dark" href="tel:+380977115522">Зателефонувати</a><a class="btn" href="#stay-request">Забронювати</a></div>
 <script>
 const observer=new IntersectionObserver(entries=>entries.forEach(e=>e.isIntersecting&&e.target.classList.add('visible')),{threshold:.1});document.querySelectorAll('.reveal,.reveal-group').forEach(el=>observer.observe(el));
 const reduceMotion=matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -75,4 +81,151 @@ if(heroVideo){
   }
 }
 </script>
+  <script type="module">
+// HotelOS site forms. Paste this whole block into the site's index.html as an inline module
+// script right before the closing body tag, and set the three constants below. Never put a
+// literal closing script tag inside this file: it would end the inline script early.
+// Contract (hotelos.webart.work/CRM.md → Submission data contract, firestore.rules):
+// - every form is <form data-hotelos data-form-name="…" novalidate> inside a <section id="{formId}">;
+//   the section id IS the formId (stable slug, e.g. stay-request, sauna-request) and the CRM
+//   links to SITE + '#' + formId, so the link scrolls to the start of that section;
+// - fields are matched by name: phone (required), name, email, message, checkIn, checkOut, guests,
+//   roomType, date, time, service; a [data-genders] box renders one select per guest (hostels);
+// - errors go to [data-error-for="<name>"], the result to [data-status]; `website` is a honeypot.
+const HOTEL_ID = 'kp-maria'; // Firestore hotels/{id}: 'kp-' + site folder name
+const SITE = 'https://maria.webart.work/'; // from the site's CNAME
+const PHONE = '+38 097 711 55 22'; // shown when sending fails
+
+const FIREBASE = {
+	apiKey: 'AIzaSyBeSB5EuC4BBSpmCGA3Pjk7dD_JV2SdcSQ',
+	authDomain: 'hotel-upwork.firebaseapp.com',
+	projectId: 'hotel-upwork',
+	appId: '1:40129364672:web:c9659550ebf0f1d8a36325',
+};
+const SDK = 'https://www.gstatic.com/firebasejs/12.19.0/';
+const TEXT_FIELDS = ['name', 'email', 'message', 'checkIn', 'checkOut', 'date', 'time', 'roomType', 'service'];
+const today = new Date(Date.now() - new Date().getTimezoneOffset() * 6e4).toISOString().slice(0, 10);
+
+let db;
+async function firestore() {
+	if (db) return db;
+	// Loaded on first submit only, so the page itself stays light.
+	const [{ initializeApp }, lite] = await Promise.all([import(SDK + 'firebase-app.js'), import(SDK + 'firebase-firestore-lite.js')]);
+	db = { lite, store: lite.getFirestore(initializeApp(FIREBASE)) };
+	return db;
+}
+
+function setup(form) {
+	const formId = form.closest('section[id]')?.id;
+	if (!formId) return console.error('HotelOS form needs a parent <section id="formId">', form);
+	const field = (name) => form.elements.namedItem(name);
+	const statusEl = form.querySelector('[data-status]');
+	const submit = form.querySelector('[type=submit]');
+	const submitLabel = submit.textContent;
+	const gendersBox = form.querySelector('[data-genders]');
+
+	for (const name of ['checkIn', 'checkOut', 'date']) if (field(name)) field(name).min = today;
+	if (field('checkIn') && field('checkOut')) {
+		field('checkIn').addEventListener('change', () => {
+			const checkIn = field('checkIn').value;
+			field('checkOut').min = checkIn || today;
+			if (field('checkOut').value && field('checkOut').value <= checkIn) field('checkOut').value = '';
+		});
+	}
+
+	// Hostels: one gender select per guest, kept in sync with the guests count.
+	function renderGenders() {
+		if (!gendersBox) return;
+		const count = Math.min(Math.max(parseInt(field('guests')?.value, 10) || 1, 1), 20);
+		const current = [...gendersBox.querySelectorAll('select')].map((select) => select.value);
+		gendersBox.replaceChildren(
+			...Array.from({ length: count }, (_, i) => {
+				const label = document.createElement('label');
+				label.textContent = `Гість ${i + 1}`;
+				const select = document.createElement('select');
+				select.name = 'gender';
+				select.required = true;
+				select.innerHTML = '<option value="">Стать</option><option value="female">Жінка</option><option value="male">Чоловік</option>';
+				select.value = current[i] ?? '';
+				label.append(select);
+				return label;
+			}),
+		);
+	}
+	if (gendersBox) {
+		field('guests')?.addEventListener('input', renderGenders);
+		renderGenders();
+	}
+
+	function setError(name, text) {
+		const input = field(name);
+		if (input instanceof Element) input.setAttribute('aria-invalid', text ? 'true' : 'false');
+		const slot = form.querySelector(`[data-error-for="${name}"]`);
+		if (slot) slot.textContent = text;
+	}
+
+	function showStatus(state, html) {
+		statusEl.dataset.state = state;
+		statusEl.innerHTML = html;
+	}
+
+	form.addEventListener('submit', async (event) => {
+		event.preventDefault();
+		showStatus('', '');
+		const phone = field('phone').value.trim();
+		const digits = phone.replace(/\D/g, '');
+		setError('phone', digits.length < 9 || digits.length > 15 ? 'Вкажіть номер телефону, щоб ми могли передзвонити.' : '');
+		if (field('checkIn') && field('checkOut')) {
+			const { value: checkIn } = field('checkIn');
+			const { value: checkOut } = field('checkOut');
+			setError('checkOut', checkIn && checkOut && checkOut <= checkIn ? 'Дата виїзду має бути пізніше за дату заїзду.' : '');
+		}
+		const genderSelects = gendersBox ? [...gendersBox.querySelectorAll('select')] : [];
+		if (gendersBox) {
+			const missing = genderSelects.some((select) => !select.value);
+			for (const select of genderSelects) select.setAttribute('aria-invalid', missing && !select.value ? 'true' : 'false');
+			const slot = form.querySelector('[data-error-for="genders"]');
+			if (slot) slot.textContent = missing ? 'Вкажіть стать кожного гостя, щоб ми підібрали місця.' : '';
+		}
+		const invalid = form.querySelector('[aria-invalid=true]');
+		if (invalid) return invalid.focus();
+
+		const thanks = `Дякуємо! Ми зателефонуємо на ${phone.replace(/</g, '')} найближчим часом.`;
+		// Bots fill the hidden field: pretend success, send nothing.
+		if (field('website')?.value) {
+			form.reset();
+			renderGenders();
+			return showStatus('ok', thanks);
+		}
+
+		const lead = { phone, formId, formName: form.dataset.formName, site: SITE, hotelId: HOTEL_ID };
+		for (const name of TEXT_FIELDS) {
+			const value = field(name)?.value?.trim();
+			if (value) lead[name] = value;
+		}
+		const guests = parseInt(field('guests')?.value, 10);
+		if (guests >= 1 && guests <= 50) lead.guests = guests;
+		if (genderSelects.length) lead.genders = genderSelects.map((select) => select.value);
+
+		submit.disabled = true;
+		submit.textContent = 'Надсилаємо…';
+		try {
+			const { lite, store } = await firestore();
+			await lite.addDoc(lite.collection(store, 'submissions'), { ...lead, status: 'new', history: [], createdAt: lite.serverTimestamp() });
+			form.reset();
+			if (field('checkOut')) field('checkOut').min = today;
+			renderGenders();
+			showStatus('ok', thanks);
+		} catch (error) {
+			console.error(error);
+			showStatus('error', `Не вдалося надіслати запит. Зателефонуйте нам: <a href="tel:${PHONE.replace(/[^\d+]/g, '')}">${PHONE}</a>.`);
+		} finally {
+			submit.disabled = false;
+			submit.textContent = submitLabel;
+		}
+	});
+}
+
+document.querySelectorAll('form[data-hotelos]').forEach(setup);
+  </script>
 </body></html>

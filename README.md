@@ -18,3 +18,6 @@ Hotel "Maria" is a city hotel at vul. Danyla Halytskoho, 16A in Kamianets-Podils
 
 ## Notes
 The page explicitly states that room capacity, bed configuration, amenities, and pricing are not published and should be confirmed with the administrator by phone before booking.
+
+## Forms
+The booking section is a live HotelOS form (hotel `kp-maria`): `stay-request` (запит на проживання, optional room category Стандарт / Напівлюкс / Люкс). Phone is the only required field.
