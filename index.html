@@ -75,7 +75,7 @@ html.js .reveal{opacity:0;transform:translateY(24px);transition:opacity .8s cubi
     </div>
     <figure class="stepped"><div class="inner"><video id="heroVideo" muted loop playsinline preload="metadata" poster="https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1000&q=85" aria-hidden="true"><source src="hero-bg.mp4" type="video/mp4"></video></div></figure>
   </div>
-  <form class="book" data-hotelos data-form-name="Запит на проживання" novalidate><p class="book-title">Перевірити вільні дати</p><div class="book-fields"><label class="field">Дата заїзду<input name="checkIn" type="date"></label><label class="field">Дата виїзду<input name="checkOut" type="date" aria-describedby="stay-checkout-error"><span id="stay-checkout-error" data-error-for="checkOut"></span></label><label class="field">Гостей<input name="guests" type="number" min="1" max="50" inputmode="numeric"></label><label class="field">Категорія номера<select name="roomType"><option value="">Ще не вирішили</option><option>Стандарт</option><option>Напівлюкс</option><option>Люкс</option></select></label><label class="field phone-f">Телефон<input name="phone" type="tel" autocomplete="tel" inputmode="tel" required aria-describedby="stay-phone-error"><span id="stay-phone-error" data-error-for="phone"></span></label><button class="btn gold" type="submit">Надіслати запит</button></div><label class="trap" aria-hidden="true">Не заповнюйте<input name="website" type="text" tabindex="-1" autocomplete="off"></label><p class="book-note">Обов’язковий лише телефон — адміністратор передзвонить і підтвердить номер і вартість.</p><p data-status role="status" aria-live="polite"></p></form>
+  <form class="book" data-hotelos data-form-name="Запит на проживання" novalidate><p class="book-title">Перевірити вільні дати</p><div class="book-fields"><label class="field">Дата заїзду<input name="checkIn" type="date"></label><label class="field">Дата виїзду<input name="checkOut" type="date" aria-describedby="stay-checkout-error"><span id="stay-checkout-error" data-error-for="checkOut"></span></label><label class="field">Гостей<input name="guests" type="number" min="1" max="300" inputmode="numeric"></label><label class="field">Категорія номера<select name="roomType"><option value="">Ще не вирішили</option><option>Стандарт</option><option>Напівлюкс</option><option>Люкс</option></select></label><label class="field phone-f">Телефон<input name="phone" type="tel" autocomplete="tel" inputmode="tel" required aria-describedby="stay-phone-error"><span id="stay-phone-error" data-error-for="phone"></span></label><button class="btn gold" type="submit">Надіслати запит</button></div><label class="trap" aria-hidden="true">Не заповнюйте<input name="website" type="text" tabindex="-1" autocomplete="off"></label><p class="book-note">Обов’язковий лише телефон — адміністратор передзвонить і підтвердить номер і вартість.</p><p data-status role="status" aria-live="polite"></p></form>
 </div></section>
 
 <section class="section rooms" id="rooms"><div class="wrap">
@@ -219,7 +219,7 @@ function setup(form) {
 			if (value) lead[name] = value;
 		}
 		const guests = parseInt(field('guests')?.value, 10);
-		if (guests >= 1 && guests <= 50) lead.guests = guests;
+		if (guests >= 1 && guests <= 300) lead.guests = guests;
 		if (genderSelects.length) lead.genders = genderSelects.map((select) => select.value);
 
 		submit.disabled = true;
