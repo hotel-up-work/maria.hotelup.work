@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://maria.webart.work/sitemap.xml
+Sitemap: https://maria.hotelup.work/sitemap.xml
